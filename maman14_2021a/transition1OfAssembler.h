@@ -1,0 +1,14 @@
+void removeComments(FILE *fp);
+int CheckLabel(symbolList* list , char* word);
+int checkStoringData(char* word);
+int checkExternEntry(char* word);
+int doesLabelLegal(symbolList* list , char* word , int isDef);
+int numberVerification(char* str);
+int ConvertStringToNumber(char* str , int imm);
+int checkRegister(char* str);
+int codeNegNum(int num);
+int ChecksStringIsAddress(symbolList* list , char* str);
+int doesOperandsValid(instructDef* inst ,symbolList* list , char* line , int index);
+memWord codeFirstWord(instructDef* inst ,symbolList* list , char* line , int index);
+int codeImmOrReg(instructionBinary* inst ,  char* line , int index);
+void firstTransition(char* filename);

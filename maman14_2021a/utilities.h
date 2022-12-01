@@ -1,0 +1,14 @@
+void resetString(char str[], int length);
+char* readNextLine(FILE * fp);
+char* getWord(char* line , int index);
+char* getString(char* line , int index);
+void cleanString(char str[]);
+int Multiple_consecutive_commas(char* str);
+int missingComma(char* str);
+int missingSpace(char* str);
+int isFinalChar(char* c);
+char* delSpaces(char* sen);
+int CheckAnyCommas(char* c);
+int checkComma(char* sen, int wordCount);
+int CheckValidity1(char*sen);
+char* cutSentence(char* sen, int index);

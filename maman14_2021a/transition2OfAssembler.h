@@ -1,0 +1,2 @@
+int encodeAddressToBinary(instructionBinary* inst , symbolList* list , symbolList* externList ,  char* line , int index , int ic);
+int secondTransition(FILE *f1, instructionBinary* arr , symbolList * list ,symbolList * externlist);
